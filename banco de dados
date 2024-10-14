@@ -1,7 +1,10 @@
+// Criação de banco de dados
 CREATE DATABASE gerenciador_tarefas;
 
+//Uso de banco de dados para criação de tabelas
 USE gerenciador_tarefas;
 
+//criação de tabelas após o comando USE
 CREATE TABLE Usuarios (
     id INT AUTO_INCREMENT PRIMARY KEY,
     nome VARCHAR(100) NOT NULL,
